@@ -2,7 +2,7 @@ local utils = require "kong.tools.utils"
 local cjson = require "cjson"
 local http = require('resty.http')
 
-local zipkin_api_path = '/api/v1/spans'
+local zipkin_api_path = '/api/v2/spans'
 
 local _M = {}
 
